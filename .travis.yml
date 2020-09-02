@@ -49,4 +49,4 @@ install: true
 # Fix this by renaming the directory before testing.
 script:
   - cd $GOPATH/src/github.com/
-  - go test -v github.com/dickmao/gcsfuse/... -mod=vendor
+  - go test -v github.com/dickmao/gcsfuse/...
