@@ -21,10 +21,10 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/dickmao/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs/gcsfake"
+	"github.com/dickmao/gcloud/gcs/gcsutil"
 	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
-	"github.com/jacobsa/gcloud/gcs"
-	"github.com/jacobsa/gcloud/gcs/gcsfake"
-	"github.com/jacobsa/gcloud/gcs/gcsutil"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 	"github.com/jacobsa/timeutil"

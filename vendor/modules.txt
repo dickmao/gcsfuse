@@ -2,6 +2,14 @@
 cloud.google.com/go/compute/metadata
 # github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d
 github.com/cpuguy83/go-md2man/v2/md2man
+# github.com/dickmao/gcloud v0.0.0-20200902013827-7cedbd44c730
+github.com/dickmao/gcloud/gcs
+github.com/dickmao/gcloud/gcs/gcscaching
+github.com/dickmao/gcloud/gcs/gcsfake
+github.com/dickmao/gcloud/gcs/gcsutil
+github.com/dickmao/gcloud/httputil
+# github.com/dickmao/ratelimit v0.0.0-20200901172858-f2ecbd8c79fc
+github.com/dickmao/ratelimit
 # github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e
 github.com/golang/groupcache/lru
 # github.com/golang/protobuf v1.3.5
@@ -13,10 +21,8 @@ github.com/golang/protobuf/ptypes/timestamp
 # github.com/googleapis/gax-go/v2 v2.0.5
 github.com/googleapis/gax-go/v2
 # github.com/jacobsa/daemonize v0.0.0-20160101105449-e460293e890f
-## explicit
 github.com/jacobsa/daemonize
 # github.com/jacobsa/fuse v0.0.0-20200706075950-f8927095af03
-## explicit
 github.com/jacobsa/fuse
 github.com/jacobsa/fuse/fsutil
 github.com/jacobsa/fuse/fuseops
@@ -25,49 +31,28 @@ github.com/jacobsa/fuse/fuseutil
 github.com/jacobsa/fuse/internal/buffer
 github.com/jacobsa/fuse/internal/freelist
 github.com/jacobsa/fuse/internal/fusekernel
-# github.com/jacobsa/gcloud v0.0.0-20190518041910-99c1a71c36ad
-## explicit
-github.com/jacobsa/gcloud/gcs
-github.com/jacobsa/gcloud/gcs/gcscaching
-github.com/jacobsa/gcloud/gcs/gcsfake
-github.com/jacobsa/gcloud/gcs/gcsutil
-github.com/jacobsa/gcloud/httputil
 # github.com/jacobsa/oglematchers v0.0.0-20150720000706-141901ea67cd
-## explicit
 github.com/jacobsa/oglematchers
 # github.com/jacobsa/oglemock v0.0.0-20150831005832-e94d794d06ff
-## explicit
 github.com/jacobsa/oglemock
 # github.com/jacobsa/ogletest v0.0.0-20170503003838-80d50a735a11
-## explicit
 github.com/jacobsa/ogletest
 github.com/jacobsa/ogletest/srcutil
-# github.com/jacobsa/ratelimit v0.0.0-20150904001804-f5e47030f3b0
-## explicit
-github.com/jacobsa/ratelimit
 # github.com/jacobsa/reqtrace v0.0.0-20150505043853-245c9e0234cb
-## explicit
 github.com/jacobsa/reqtrace
 # github.com/jacobsa/syncutil v0.0.0-20180201203307-228ac8e5a6c3
-## explicit
 github.com/jacobsa/syncutil
 # github.com/jacobsa/timeutil v0.0.0-20170205232429-577e5acbbcf6
-## explicit
 github.com/jacobsa/timeutil
 # github.com/jacobsa/util v0.0.0-20150810040848-976a6f4de67e
-## explicit
 github.com/jacobsa/util/lrucache
 # github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
-## explicit
 github.com/kardianos/osext
-# github.com/kylelemons/godebug v1.1.0
-## explicit
 # github.com/russross/blackfriday/v2 v2.0.1
 github.com/russross/blackfriday/v2
 # github.com/shurcooL/sanitized_anchor_name v1.0.0
 github.com/shurcooL/sanitized_anchor_name
 # github.com/urfave/cli v1.22.4
-## explicit
 github.com/urfave/cli
 # go.opencensus.io v0.22.3
 go.opencensus.io
@@ -87,7 +72,6 @@ go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
 # golang.org/x/net v0.0.0-20200707034311-ab3426394381
-## explicit
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -97,7 +81,6 @@ golang.org/x/net/idna
 golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
 # golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-## explicit
 golang.org/x/oauth2
 golang.org/x/oauth2/google
 golang.org/x/oauth2/internal
@@ -111,7 +94,6 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/api v0.29.0
-## explicit
 google.golang.org/api/googleapi
 google.golang.org/api/googleapi/transport
 google.golang.org/api/internal

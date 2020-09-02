@@ -19,7 +19,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/jacobsa/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs"
 	"golang.org/x/net/context"
 )
 
@@ -88,7 +88,7 @@ func (oc *fullObjectCreator) Create(
 	mtime time.Time,
 	r io.Reader) (o *gcs.Object, err error) {
 	req := &gcs.CreateObjectRequest{
-		Name: srcObject.Name,
+		Name:                       srcObject.Name,
 		GenerationPrecondition:     &srcObject.Generation,
 		MetaGenerationPrecondition: &srcObject.MetaGeneration,
 		Contents:                   r,

@@ -22,11 +22,11 @@ import (
 
 	"golang.org/x/net/context"
 
+	"github.com/dickmao/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs/gcscaching"
+	"github.com/dickmao/ratelimit"
 	"github.com/googlecloudplatform/gcsfuse/internal/canned"
 	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
-	"github.com/jacobsa/gcloud/gcs"
-	"github.com/jacobsa/gcloud/gcs/gcscaching"
-	"github.com/jacobsa/ratelimit"
 	"github.com/jacobsa/timeutil"
 )
 

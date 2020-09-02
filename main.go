@@ -37,13 +37,13 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
-	"github.com/urfave/cli"
+	"github.com/dickmao/gcloud/gcs"
 	"github.com/googlecloudplatform/gcsfuse/internal/canned"
 	"github.com/jacobsa/daemonize"
 	"github.com/jacobsa/fuse"
-	"github.com/jacobsa/gcloud/gcs"
 	"github.com/jacobsa/syncutil"
 	"github.com/kardianos/osext"
+	"github.com/urfave/cli"
 )
 
 ////////////////////////////////////////////////////////////////////////
@@ -195,9 +195,10 @@ func getConn(flags *flagStorage) (c gcs.Conn, err error) {
 		}
 	} else {
 		tokenSrc, err = google.DefaultTokenSource(context.Background(), scope)
-		if err != nil {
-			err = fmt.Errorf("DefaultTokenSource: %v", err)
-			return
+		if tokenSrc == nil {
+			fmt.Fprintf(
+				os.Stdout,
+				"No credentials found (only public buckets accessible)\n")
 		}
 	}
 

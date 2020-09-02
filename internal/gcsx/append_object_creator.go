@@ -20,7 +20,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/jacobsa/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs"
 	"golang.org/x/net/context"
 )
 
@@ -94,7 +94,7 @@ func (oc *appendObjectCreator) Create(
 	tmp, err := oc.bucket.CreateObject(
 		ctx,
 		&gcs.CreateObjectRequest{
-			Name: tmpName,
+			Name:                   tmpName,
 			GenerationPrecondition: &zero,
 			Contents:               r,
 		})

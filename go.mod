@@ -1,15 +1,17 @@
 module github.com/googlecloudplatform/gcsfuse
 
-go 1.14
+go 1.13
 
 require (
+	github.com/dickmao/gcloud v0.0.0-20200902013827-7cedbd44c730
+	github.com/dickmao/ratelimit v0.0.0-20200901172858-f2ecbd8c79fc
 	github.com/jacobsa/daemonize v0.0.0-20160101105449-e460293e890f
 	github.com/jacobsa/fuse v0.0.0-20200706075950-f8927095af03
-	github.com/jacobsa/gcloud v0.0.0-20190518041910-99c1a71c36ad
+	github.com/jacobsa/gcloud v0.0.0-20190518041910-99c1a71c36ad // indirect
 	github.com/jacobsa/oglematchers v0.0.0-20150720000706-141901ea67cd
 	github.com/jacobsa/oglemock v0.0.0-20150831005832-e94d794d06ff
 	github.com/jacobsa/ogletest v0.0.0-20170503003838-80d50a735a11
-	github.com/jacobsa/ratelimit v0.0.0-20150904001804-f5e47030f3b0
+	github.com/jacobsa/ratelimit v0.0.0-20150904001804-f5e47030f3b0 // indirect
 	github.com/jacobsa/reqtrace v0.0.0-20150505043853-245c9e0234cb // indirect
 	github.com/jacobsa/syncutil v0.0.0-20180201203307-228ac8e5a6c3
 	github.com/jacobsa/timeutil v0.0.0-20170205232429-577e5acbbcf6

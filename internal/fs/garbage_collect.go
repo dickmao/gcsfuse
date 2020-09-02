@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/jacobsa/gcloud/gcs"
-	"github.com/jacobsa/gcloud/gcs/gcsutil"
+	"github.com/dickmao/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs/gcsutil"
 	"github.com/jacobsa/syncutil"
 )
 

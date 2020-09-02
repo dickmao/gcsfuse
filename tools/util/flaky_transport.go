@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/jacobsa/gcloud/httputil"
+	"github.com/dickmao/gcloud/httputil"
 )
 
 // NewFlakyTransport return a flaky transport that can have hiccups (service

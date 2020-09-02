@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dickmao/gcloud/gcs"
+	"github.com/dickmao/gcloud/gcs/gcsfake"
 	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
-	"github.com/jacobsa/gcloud/gcs"
-	"github.com/jacobsa/gcloud/gcs/gcsfake"
 	"github.com/jacobsa/timeutil"
 	"golang.org/x/net/context"
 )
