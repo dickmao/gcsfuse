@@ -22,7 +22,7 @@ The following compatibility constraints are worth noting:
 [object versioning]: https://cloud.google.com/storage/docs/object-versioning
 [Object resource]: https://cloud.google.com/storage/docs/json_api/v1/objects#resource
 [performance tips]: https://cloud.google.com/storage/docs/json_api/v1/how-tos/performance
-[encoding-writeup]: https://github.com/GoogleCloudPlatform/gcsfuse/issues/131#issuecomment-146031206
+[encoding-writeup]: https://github.com/dickmao/gcsfuse/issues/131#issuecomment-146031206
 
 <a name="caching"></a>
 # Caching
@@ -209,7 +209,7 @@ more thorough discussion):
     gcsfuse simply ignores this subtlety. Therefore in rare cases an implicitly
     defined directory will fail to appear.
 
-[issue-7]: https://github.com/GoogleCloudPlatform/gcsfuse/issues/7
+[issue-7]: https://github.com/dickmao/gcsfuse/issues/7
 
 
 <a name="generations"></a>

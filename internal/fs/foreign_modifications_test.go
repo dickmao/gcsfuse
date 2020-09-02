@@ -33,7 +33,7 @@ import (
 
 	"github.com/dickmao/gcloud/gcs"
 	"github.com/dickmao/gcloud/gcs/gcsutil"
-	"github.com/googlecloudplatform/gcsfuse/internal/fs/inode"
+	"github.com/dickmao/gcsfuse/internal/fs/inode"
 	"github.com/jacobsa/fuse/fusetesting"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"

@@ -14,7 +14,7 @@ gcsfuse maps file system operations to GCS operations, and especially on
 surprising behaviors. The list of [open issues][issues] may also be of interest.
 
 [semantics.md]: docs/semantics.md
-[issues]: https://github.com/GoogleCloudPlatform/gcsfuse/issues
+[issues]: https://github.com/dickmao/gcsfuse/issues
 
 
 # Installing
@@ -131,7 +131,7 @@ using the [`daemon_timeout`][timeout] mount option. See [issue #196][] for
 details.
 
 [timeout]: https://github.com/osxfuse/osxfuse/wiki/Mount-options#daemon_timeout
-[issue #196]: https://github.com/GoogleCloudPlatform/gcsfuse/issues/196
+[issue #196]: https://github.com/dickmao/gcsfuse/issues/196
 
 
 ## Downloading object contents
@@ -153,7 +153,7 @@ small random reads. Performance when copying large files into GCS is comparable
 to gsutil (see [issue #22][issue-22] for testing notes). There is some overhead
 due to the staging of data in a local temporary file, as discussed above.
 
-[issue-22]: https://github.com/GoogleCloudPlatform/gcsfuse/issues/22
+[issue-22]: https://github.com/dickmao/gcsfuse/issues/22
 
 Note that new and modified files are also fully staged in the local temporary
 directory until they are written out to GCS due to being closed or fsync'd.
@@ -165,7 +165,7 @@ handle staged content when writing large files.
 If you notice otherwise unreasonable performance, please [file an
 issue][issues].
 
-[issues]: https://github.com/googlecloudplatform/gcsfuse/issues
+[issues]: https://github.com/dickmao/gcsfuse/issues
 
 # Support
 

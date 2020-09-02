@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/googlecloudplatform/gcsfuse/benchmarks/internal/percentile"
+	"github.com/dickmao/gcsfuse/benchmarks/internal/percentile"
 	. "github.com/jacobsa/ogletest"
 )
 

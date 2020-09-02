@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/googlecloudplatform/gcsfuse/internal/canned"
+	"github.com/dickmao/gcsfuse/internal/canned"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"
 )

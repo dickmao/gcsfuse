@@ -22,7 +22,7 @@ Building a gcsfuse release:
     packages:
 
         mkdir -p ~/tmp/release
-        go get -v -u github.com/googlecloudplatform/gcsfuse/tools/package_gcsfuse
+        go get -v -u github.com/dickmao/gcsfuse/tools/package_gcsfuse
         package_gcsfuse ~/tmp/release $VERSION
 
 7.  Sign the `.rpm` file generated in the previous step.
@@ -38,6 +38,6 @@ Building a gcsfuse release:
 11. Update the gcsfuse [formula][] in homebrew.
 
 [semver]: http://semver.org/
-[tags]: https://github.com/GoogleCloudPlatform/gcsfuse/tags
-[new-release]: https://github.com/GoogleCloudPlatform/gcsfuse/releases/new
+[tags]: https://github.com/dickmao/gcsfuse/tags
+[new-release]: https://github.com/dickmao/gcsfuse/releases/new
 [formula]: https://github.com/Homebrew/homebrew-core/blob/master/Formula/gcsfuse.rb

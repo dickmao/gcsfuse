@@ -1190,7 +1190,7 @@ func (t *DirectoryTest) Rmdir_ThenRecreateWithSameName() {
 
 	// Re-create the directory with the same name. Nothing crazy should happen.
 	// In the past, this used to crash (cf.
-	// https://github.com/GoogleCloudPlatform/gcsfuse/issues/8).
+	// https://github.com/dickmao/gcsfuse/issues/8).
 	err = os.Mkdir(path.Join(t.mfs.Dir(), "dir"), 0700)
 	AssertEq(nil, err)
 

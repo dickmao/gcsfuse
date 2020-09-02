@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"time"
 
+	mountpkg "github.com/dickmao/gcsfuse/internal/mount"
 	"github.com/urfave/cli"
-	mountpkg "github.com/googlecloudplatform/gcsfuse/internal/mount"
 )
 
 // Set up custom help text for gcsfuse; in particular the usage section.

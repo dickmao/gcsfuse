@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/dickmao/gcloud/gcs"
-	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
+	"github.com/dickmao/gcsfuse/internal/gcsx"
 	"github.com/jacobsa/fuse/fuseops"
 	"github.com/jacobsa/syncutil"
 	"github.com/jacobsa/timeutil"

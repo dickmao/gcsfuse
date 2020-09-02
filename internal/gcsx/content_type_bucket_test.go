@@ -20,7 +20,7 @@ import (
 
 	"github.com/dickmao/gcloud/gcs"
 	"github.com/dickmao/gcloud/gcs/gcsfake"
-	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
+	"github.com/dickmao/gcsfuse/internal/gcsx"
 	"github.com/jacobsa/timeutil"
 	"golang.org/x/net/context"
 )

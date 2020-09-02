@@ -24,9 +24,9 @@ import (
 
 	"github.com/dickmao/gcloud/gcs"
 	"github.com/dickmao/gcloud/gcs/gcscaching"
+	"github.com/dickmao/gcsfuse/internal/canned"
+	"github.com/dickmao/gcsfuse/internal/gcsx"
 	"github.com/dickmao/ratelimit"
-	"github.com/googlecloudplatform/gcsfuse/internal/canned"
-	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
 	"github.com/jacobsa/timeutil"
 )
 

@@ -19,8 +19,8 @@ import (
 	"io"
 
 	"github.com/dickmao/gcloud/gcs"
-	"github.com/googlecloudplatform/gcsfuse/internal/fs/inode"
-	"github.com/googlecloudplatform/gcsfuse/internal/gcsx"
+	"github.com/dickmao/gcsfuse/internal/fs/inode"
+	"github.com/dickmao/gcsfuse/internal/gcsx"
 	"github.com/jacobsa/syncutil"
 	"golang.org/x/net/context"
 )

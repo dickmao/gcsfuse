@@ -24,7 +24,7 @@ import (
 	"github.com/dickmao/gcloud/gcs/gcscaching"
 	"github.com/dickmao/gcloud/gcs/gcsfake"
 	"github.com/dickmao/gcloud/gcs/gcsutil"
-	"github.com/googlecloudplatform/gcsfuse/internal/fs/inode"
+	"github.com/dickmao/gcsfuse/internal/fs/inode"
 	"github.com/jacobsa/fuse/fusetesting"
 	. "github.com/jacobsa/oglematchers"
 	. "github.com/jacobsa/ogletest"

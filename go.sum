@@ -37,6 +37,8 @@ github.com/dickmao/gcloud v0.0.0-20200901211122-bac922426146 h1:qV9e4KM5H4sqQ6yq
 github.com/dickmao/gcloud v0.0.0-20200901211122-bac922426146/go.mod h1:DzdP2NFuXkGz7Qt2N94Rn8k1OEcUIdeFm5n3FqEQCHs=
 github.com/dickmao/gcloud v0.0.0-20200902013827-7cedbd44c730 h1:cma3QKz7hicbGK1HB4LP7g7NUNLv9pmtqHbDVMwtvbA=
 github.com/dickmao/gcloud v0.0.0-20200902013827-7cedbd44c730/go.mod h1:DzdP2NFuXkGz7Qt2N94Rn8k1OEcUIdeFm5n3FqEQCHs=
+github.com/dickmao/gcsfuse v0.31.0 h1:0jtp9SMIqcIusbmXUR3EI6+/wxVUZM1V/XVghFtratY=
+github.com/dickmao/gcsfuse v0.31.0/go.mod h1:r+LVkqdi1ZwfoZ1dcWn5ayuuJX3/dweUTVdObUbocqA=
 github.com/dickmao/ratelimit v0.0.0-20200901172858-f2ecbd8c79fc h1:tP5N3LDtxUVcnblWXecJ5w1yh6wahpXJAF2kr4zKlFk=
 github.com/dickmao/ratelimit v0.0.0-20200901172858-f2ecbd8c79fc/go.mod h1:CKByKgvOWzXa5Uzlfnxy2eQ+RDA35hWATUqzfnWTO5w=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
